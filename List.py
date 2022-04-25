@@ -30,5 +30,7 @@ print(l1)
 
 list = [9,2,33,11,22,33,2]
 
-list.sort(reverse=True)
+list.sort(reverse=True) # SOrt Decending Orders
+
+list.reverse()
 print(list)
