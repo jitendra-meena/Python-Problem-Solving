@@ -24,6 +24,11 @@ print(List)
 fruits = ["apple", "banana", "cbherry", "kiwi", "mango"]
 
 
-l1 = [f for f in fruits if 'b' in f]
-
+l6 = [f for f in fruits if 'b' in f]  # List Comperiehence
+l1.sort() # Sort List 
 print(l1)
+
+list = [9,2,33,11,22,33,2]
+
+list.sort(reverse=True)
+print(list)
