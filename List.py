@@ -18,8 +18,6 @@ List.pop()
 l1 = [1,2,23,3,9]
 
 l1 = [i for i in l1 if i>2]
-print(l1)
-print(List)
 
 fruits = ["apple", "banana", "cbherry", "kiwi", "mango"]
 
@@ -33,5 +31,7 @@ list = [9,2,33,11,22,33,2]
 list.sort(reverse=True) # SOrt Decending Orders
 
 list.reverse()
-list.extend(l1)
+list.extend(l1)  # Extends Elements From One List to Another one
 print(list)
+
+
