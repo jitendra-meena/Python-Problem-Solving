@@ -15,6 +15,10 @@ print(List)
 
 List.pop()
 
+l1 = [1,2,23,3,9]
+
+l1 = [i for i in l1 if i>2]
+print(l1)
 
 
 
