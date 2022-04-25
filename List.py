@@ -5,6 +5,9 @@
 
 # List Append indexing ,slicing, iterarting.....
 
+from enum import unique
+
+
 List =  [1,2,6,3,4]
 
 for i in List:
@@ -34,4 +37,27 @@ list.reverse()
 list.extend(l1)  # Extends Elements From One List to Another one
 print(list)
 
+
+# Remove Duplicate Elements From List:
+
+list = [1,2,3,2,3,1,2,4,22,121]
+unique_list = []
+for i in list:
+    if i not in unique_list:
+        unique_list.append(i)
+print(list)
+print(unique_list)
+
+
+
+# Program To Sort List Elements Without using Sort functions
+
+list_data = [122,11,3434,21,656,8,3223,2]
+l =len(list_data)
+
+for i in range(l-1):
+    for j in range(l-i-1):
+        if list_data[j]>list_data[j+1]:
+            list_data[j],list_data[j+1] = list_data[j+1],list_data[j]
+print(list_data,"Sort List Data")            
 
