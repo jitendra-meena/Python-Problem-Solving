@@ -33,4 +33,5 @@ list = [9,2,33,11,22,33,2]
 list.sort(reverse=True) # SOrt Decending Orders
 
 list.reverse()
+list.extend(l1)
 print(list)
