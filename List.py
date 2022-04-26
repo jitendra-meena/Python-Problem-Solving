@@ -77,3 +77,13 @@ for i in list_data:
 
 
 # List Comperihence Program 
+
+list = [1,2,[54,33],[12,33333]]
+list1 =[]
+for i in list:
+    if type(i)==list:
+        for j in list:
+            list1.append(j)
+    else:
+        list1.append(i)        
+print(list1)
