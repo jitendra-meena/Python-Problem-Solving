@@ -76,14 +76,29 @@ for i in list_data:
 
 
 
+# Program To Find Largest Numbers in List
+
+list = [122,11,3434,21,656,8,3223,2]
+max =list[0]
+min=list[0]
+for i in list:
+    if i>max:
+        max = i
+    elif i<min:
+        min = i    
+print(max,min)    
+
 # List Comperihence Program 
 
 list = [1,2,[54,33],[12,33333]]
 list1 =[]
 for i in list:
-    if type(i)==list:
+    if type(i)=='list':
         for j in list:
             list1.append(j)
     else:
+        print(type(i))
         list1.append(i)        
 print(list1)
+
+
