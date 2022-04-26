@@ -73,3 +73,7 @@ for i in list_data:
         print("Yes Elements Presents---")
     else:
         print("Not Present Elements")
+
+
+
+# List Comperihence Program 
