@@ -61,3 +61,15 @@ for i in range(l-1):
             list_data[j],list_data[j+1] = list_data[j+1],list_data[j]
 print(list_data,"Sort List Data")            
 
+
+# Program to search elements in list 
+
+list_data = [122,11,3434,21,656,8,3223,2]
+
+s = 11
+
+for i in list_data:
+    if s in list_data:
+        print("Yes Elements Presents---")
+    else:
+        print("Not Present Elements")
