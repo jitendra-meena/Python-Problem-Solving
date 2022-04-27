@@ -89,16 +89,23 @@ for i in list:
 print(max,min)    
 
 # List Comperihence Program 
+# Python code to flat a nested list with
+# multiple levels of nesting allowed.
 
-list = [1,2,[54,33],[12,33333]]
-list1 =[]
-for i in list:
-    if type(i)=='list':
-        for j in list:
-            list1.append(j)
-    else:
-        print(type(i))
-        list1.append(i)        
-print(list1)
+# input list
+l = [1, 2, [3, 4, [5, 6]], 7, 8, [9, [10]]]
 
+# output list
+output = []
 
+def reemovNestings(l):
+	for i in l:
+		if type(i) == list:
+			reemovNestings(i)
+		else:
+			output.append(i)
+
+# Driver code
+print ('The original list: ', l)
+reemovNestings(l)
+print ('The list after removing nesting: ', output)
