@@ -105,7 +105,47 @@ def reemovNestings(l):
 		else:
 			output.append(i)
 
-# Driver code
+# Driver code 
 print ('The original list: ', l)
 reemovNestings(l)
 print ('The list after removing nesting: ', output)
+
+ 
+   
+l1 = [1,2,4]
+#124
+x = "".join(map(str,l1))
+print(x)
+
+
+data,data2 = [12,6],[9,7]
+#[12,6,9,7]
+data[-1:]=data2
+
+print(data)
+
+
+
+def vedik(a,b):
+    if (a < 10 or a > 99):
+        print("Invalid Input!")
+    else:
+        f,l = a // 10,a % 10
+        s = f+l
+        c = [f,s,l]
+        f = ''.join(str(c) for c in c)
+        print(f)
+
+
+A = int(input("Enter A--"))
+B = int(input("Enter B--"))
+vedik(A,B)
+
+def mul(a,b):
+    c =a*b
+    print(c)
+
+A = int(input("Enter A--"))
+B = int(input("Enter B--"))
+mul(A,B)
+    
