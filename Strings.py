@@ -41,5 +41,5 @@ print(rev,'/n',revv)
 str =""
 
 for i in string:
-    str = str+i
+    str = i+str
 print(str)    
