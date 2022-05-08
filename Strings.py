@@ -25,3 +25,21 @@ for i in string:
         l_c = l_c+1
 
 print(u_c,l_c)
+
+
+# Reverse String in Python......
+
+
+string = "Python Developer"
+
+revv = string[::-1]
+
+rev = ''.join(reversed(string))
+
+print(rev,'/n',revv)
+
+str =""
+
+for i in string:
+    str = str+i
+print(str)    
