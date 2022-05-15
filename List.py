@@ -148,4 +148,19 @@ def mul(a,b):
 A = int(input("Enter A--"))
 B = int(input("Enter B--"))
 mul(A,B)
+
+
+
+# Program to show Element count String
+st = "MeenaJitu"
+l = len(st)
+c = 1
+new = ''
+for i in range(l-1):
+    if st[i]==st[i+1]:
+        c =c+1
+    else:    
+        new = new +st[i]+str(c)
+print(st)
+print(new)
     
