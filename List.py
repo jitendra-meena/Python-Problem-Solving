@@ -181,3 +181,15 @@ for i in range(len(X)):
         result[i][j]=X[i][j]+Y[i][j]
 for k in result:
     print(k)
+
+
+
+#Python program to find second largest number in a list
+
+list1 = [10, 20, 4, 45, 99]
+
+list2 = list(set(list2))
+
+list2.sort()
+print("Second largest element is:", list2[-2])
+
