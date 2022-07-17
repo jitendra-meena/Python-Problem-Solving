@@ -193,3 +193,17 @@ list2 = list(set(list2))
 list2.sort()
 print("Second largest element is:", list2[-2])
 
+
+# Python Program to Return the Length of the Longest Word from the List of Words
+
+max = len(a[0])
+temp = a[0]
+for i in a:
+    if(len(i)>max1):
+       max1=len(i)
+       temp=i
+print("The word with the longest length is:")
+print(temp)	
+	
+		
+
