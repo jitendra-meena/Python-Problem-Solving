@@ -80,3 +80,13 @@ for s in string:
     if(s==' '):
         w = w+1
 print(w,c)        
+
+# Python Program to Count Number of Lowercase Characters in a String
+
+s = "Jitendra"
+
+l = 0
+for s in s:
+    if(s == s.lower()): # islower()
+        l=l+1
+print(l) 
