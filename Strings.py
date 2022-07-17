@@ -46,9 +46,15 @@ print(str)
 
 
 #Python Program to Remove Odd Indexed Characters in a string
-string=raw_input("Enter string:")
+string=input("Enter string:")
 new = ""
 for s in range(len(string)):
     if i%2==0:
         new = new+string[i]
  print(new)       
+
+#Python Program to Remove the nth Index Character from a Non-Empty String
+
+string  = input("Enter STRT-")
+index = int(input("Enter Index-"))
+print(string[:index]+string[index+1:])
