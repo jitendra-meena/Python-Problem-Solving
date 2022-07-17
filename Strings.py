@@ -58,3 +58,13 @@ for s in range(len(string)):
 string  = input("Enter STRT-")
 index = int(input("Enter Index-"))
 print(string[:index]+string[index+1:])
+
+
+# Python Program to Calculate the Length of a String Without using Library Functions
+
+
+string = "Jitendra"
+c = 0
+for s in string:
+    c = c+1
+print(c)    
