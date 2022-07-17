@@ -43,3 +43,12 @@ str =""
 for i in string:
     str = i+str
 print(str)    
+
+
+#Python Program to Remove Odd Indexed Characters in a string
+string=raw_input("Enter string:")
+new = ""
+for s in range(len(string)):
+    if i%2==0:
+        new = new+string[i]
+ print(new)       
