@@ -68,3 +68,15 @@ c = 0
 for s in string:
     c = c+1
 print(c)    
+
+# Python Program to Count the Number of Words and Characters in a String
+
+string = "Jitendra Meena Python Developer"
+w = 1
+c = 0
+
+for s in string:
+    c = c+1
+    if(s==' '):
+        w = w+1
+print(w,c)        
