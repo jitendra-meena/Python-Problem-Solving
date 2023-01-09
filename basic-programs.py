@@ -30,6 +30,7 @@ print(total)
 
 # Python Program to Count the Number of Digits in a Number
 
+
 n=int(input("Enter number:"))
 count=0
 while(n>0):
