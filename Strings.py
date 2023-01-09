@@ -100,4 +100,9 @@ for st in range(len(string)):
         final_str += string[st]
 print(final_str)
 
+# Remove the nth Index Character from a Non-Empty String
 
+
+string = "Jitendra Meena"
+n = int(input("enter numbers:-"))
+print(string[:n]+string[n+1:])        
