@@ -105,4 +105,19 @@ print(final_str)
 
 string = "Jitendra Meena"
 n = int(input("enter numbers:-"))
-print(string[:n]+string[n+1:])        
+print(string[:n]+string[n+1:])      
+
+# Python Program to Determine How Many Times a Given Letter Occurs in a String Recursively
+
+# With Count fucntion
+ele = input("Enter a Search str:-")
+string = input("Enter a String:-")
+print(string.count(ele))
+
+
+# Without Count 
+c = 0
+for i in range(len(string)):
+    if string[i]==ele:
+        c+=1
+print(c)        
