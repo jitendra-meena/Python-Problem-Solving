@@ -90,3 +90,14 @@ for s in s:
     if(s == s.lower()): # islower()
         l=l+1
 print(l) 
+
+# Remove Odd Indexed Characters in a string
+
+string = "Jitendra Meena"
+final_str = ""
+for st in range(len(string)):
+    if st%2==0:
+        final_str += string[st]
+print(final_str)
+
+
