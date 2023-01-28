@@ -203,7 +203,21 @@ for i in a:
        max1=len(i)
        temp=i
 print("The word with the longest length is:")
-print(temp)	
+print(temp)
+
+
+# Check if a pair exists with given sum in given List
+def twoSum(self, nums: List[int], target: int) -> List[int]:
+        l = len(nums)
+        for i in range(0,l):
+            for j in range(i+1,l):
+                if(nums[i]+nums[j]==target):
+                    return [i,j]
+
+nums = [1,3,4]
+target = 5
+twoSum(nums,target)
+
 	
 		
 
