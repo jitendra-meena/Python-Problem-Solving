@@ -75,6 +75,10 @@ The generator is assigned to the variable fib, and we can iterate over it using 
 The function is executed each time we call next(fib), and it stops when it encounters the end of the function.
 '''
 
+'''
 
+map is used to apply a function to each element of an iterable
+(e.g., a list) and return a new iterable with the results.
 
+'''
 
