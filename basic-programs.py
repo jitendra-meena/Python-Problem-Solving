@@ -4,7 +4,7 @@ Python Basic Programs 2023 by Code with Jeet
 
 """
 
-# Python Program to Reverse a Number
+# Python Program to Reverse a Numbers
 
 
 n = int(input("Enter a Numbers :-"))
