@@ -120,4 +120,21 @@ c = 0
 for i in range(len(string)):
     if string[i]==ele:
         c+=1
-print(c)        
+print(c)     
+
+# Program To show count of repeted elements 
+
+s = "aaabbccz"
+char = ""
+ch = s[0]
+c = 0
+for st in s:
+    if st == ch:
+        c += 1
+    else:
+        char = char+str(c)+ch
+        ch = st
+        c = 1
+char = char+str(c)+ch        
+print(char)        
+# Output : 3a2b2c1z
