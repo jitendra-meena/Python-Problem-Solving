@@ -150,3 +150,13 @@ for ch in s:
     if d[ch] == 1:
         s2 += ch
 print(s2)
+
+# How would you convert a string to uppercase or lowercase Without using Built-in ?
+
+name = "abcdeff"
+u_c = ""
+for char in name:
+    if 'a' <= char <= 'z':
+        u_c += chr(ord(char)-32)
+print(u_c)        
+        
