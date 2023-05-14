@@ -138,3 +138,15 @@ for st in s:
 char = char+str(c)+ch        
 print(char)        
 # Output : 3a2b2c1z
+
+# How do you find the first non-repeated character in a string?
+s = "abcdeff"
+d = {}
+for char in s:
+    d[char] = d.get(char ,0)+1
+print(d)  
+s2 =""
+for ch in s:
+    if d[ch] == 1:
+        s2 += ch
+print(s2)
