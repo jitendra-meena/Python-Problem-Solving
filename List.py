@@ -2,7 +2,6 @@
 
 #    @@@ WELLCOME TO LIST PROGRAM @@@@@@
 
-
 # List Append indexing ,slicing, iterarting.....
 
 from enum import unique
