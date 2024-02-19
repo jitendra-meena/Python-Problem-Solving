@@ -82,3 +82,23 @@ map is used to apply a function to each element of an iterable
 
 '''
 
+
+# Genrate Random Numbers Without using Built-in
+
+
+import time
+
+def random_number(seed=None):
+    a = 1664525
+    c = 1013904223
+    m = 2**32
+    seed = seed if seed is not None else int(time.time())
+    seed = (a * seed + c) % m
+
+    return (seed % 100) + 1
+
+# Generate a single random number
+random_value = random_number()
+
+# Print the random value
+print("Random number:", random_value)
