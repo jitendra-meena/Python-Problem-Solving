@@ -102,3 +102,24 @@ random_value = random_number()
 
 # Print the random value
 print("Random number:", random_value)
+
+
+# Fibonacci sequence using a generator in Python. 
+def gen(n):
+    a, b = 0, 1
+    while a < n:
+        yield a
+        a, b = a + b, b
+
+# Create a generator object
+c = gen(10)
+
+# Call __next__() multiple times
+print(c.__next__())  # 0
+print(c.__next__())  # 1
+print(c.__next__())  # 1
+print(c.__next__())  # 2
+print(c.__next__())  # 3
+print(c.__next__())  # 5
+print(c.__next__())  # 8
+print(c.__next__())  # 13
