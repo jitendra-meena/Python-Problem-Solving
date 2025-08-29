@@ -11,3 +11,11 @@ print(c,"sort")
 d = {'Jeet': 10, 'rajnish': 9, 'meena': 15, 'yash': 2, 'kp': 32}
 
 print(sum(d.values()))
+
+
+a = ((x, x**2) for x in range(5))  # Generator of key-value pairs (x, x^2)
+
+# Convert generator to dictionary
+res = dict(a)
+
+print(res)
